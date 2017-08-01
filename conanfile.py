@@ -12,7 +12,6 @@ class BoostGraphConan(ConanFile):
                       "Boost.Any/1.64.0@bincrafters/testing", \
                       "Boost.Array/1.64.0@bincrafters/testing", \
                       "Boost.Assert/1.64.0@bincrafters/testing", \
-                      "Boost.Bimap/1.64.0@bincrafters/testing", \
                       "Boost.Bind/1.64.0@bincrafters/testing", \
                       "Boost.Concept_Check/1.64.0@bincrafters/testing", \
                       "Boost.Config/1.64.0@bincrafters/testing", \
@@ -33,7 +32,6 @@ class BoostGraphConan(ConanFile):
                       "Boost.Optional/1.64.0@bincrafters/testing", \
                       "Boost.Parameter/1.64.0@bincrafters/testing", \
                       "Boost.Preprocessor/1.64.0@bincrafters/testing", \
-                      "Boost.Property_Map/1.64.0@bincrafters/testing", \
                       "Boost.Property_Tree/1.64.0@bincrafters/testing", \
                       "Boost.Random/1.64.0@bincrafters/testing", \
                       "Boost.Range/1.64.0@bincrafters/testing", \
@@ -53,6 +51,8 @@ class BoostGraphConan(ConanFile):
                       "Boost.Xpressive/1.64.0@bincrafters/testing"
 
                       # "Boost.Graph_Parallel/1.64.0@bincrafters/testing", \  # This is a circular dependency , Needs discussion
+                      # "Boost.Bimap/1.64.0@bincrafters/testing", \ # This is a circular dependency , Needs discussion
+                      # "Boost.Property_Map/1.64.0@bincrafters/testing", \       This is a circular dependency , Needs discussion
                                             
                       #algorithm9 any6 array3 assert1 bimap14 bind3 concept_check5 config0 conversion5 core2 detail5 disjoint_sets14 foreach8 function5 functional5 graph_parallel14 integer3 iterator5 lexical_cast8 math8 move3 mpl5 multi_index12 optional5 parameter10 preprocessor0 property_map14 property_tree13 random9 range7 serialization11 smart_ptr4 spirit11 static_assert1 test10 throw_exception2 tti6 tuple4 type_traits3 typeof5 unordered8 utility5 xpressive9
                       
