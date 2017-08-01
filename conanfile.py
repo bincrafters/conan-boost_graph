@@ -23,7 +23,6 @@ class BoostGraphConan(ConanFile):
                       "Boost.Foreach/1.64.0@bincrafters/testing", \
                       "Boost.Function/1.64.0@bincrafters/testing", \
                       "Boost.Functional/1.64.0@bincrafters/testing", \
-                      # "Boost.Graph_Parallel/1.64.0@bincrafters/testing", \  # This is a circular dependency , Needs discussion
                       "Boost.Integer/1.64.0@bincrafters/testing", \
                       "Boost.Iterator/1.64.0@bincrafters/testing", \
                       "Boost.Lexical_Cast/1.64.0@bincrafters/testing", \
@@ -53,6 +52,8 @@ class BoostGraphConan(ConanFile):
                       "Boost.Utility/1.64.0@bincrafters/testing", \
                       "Boost.Xpressive/1.64.0@bincrafters/testing"
 
+                      # "Boost.Graph_Parallel/1.64.0@bincrafters/testing", \  # This is a circular dependency , Needs discussion
+                                            
                       #algorithm9 any6 array3 assert1 bimap14 bind3 concept_check5 config0 conversion5 core2 detail5 disjoint_sets14 foreach8 function5 functional5 graph_parallel14 integer3 iterator5 lexical_cast8 math8 move3 mpl5 multi_index12 optional5 parameter10 preprocessor0 property_map14 property_tree13 random9 range7 serialization11 smart_ptr4 spirit11 static_assert1 test10 throw_exception2 tti6 tuple4 type_traits3 typeof5 unordered8 utility5 xpressive9
                       
     def source(self):
