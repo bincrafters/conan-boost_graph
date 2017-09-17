@@ -3,13 +3,13 @@ from conans import ConanFile, tools, os
 
 class BoostGraphConan(ConanFile):
     name = "Boost.Graph"
-    version = "1.64.0"
+    version = "1.65.1"
     url = "https://github.com/bincrafters/conan-boost-graph"
-    description = "Please visit http://www.boost.org/doc/libs/1_64_0/libs/libraries.htm"
+    description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     options = {"shared": [True, False]}
     default_options = "shared=False"
-    requires =  "Boost.Level14Group/1.64.0@bincrafters/testing"
+    requires =  "Boost.Level14Group/1.65.1@bincrafters/testing"
         
     #This library is part of one or more cyclic dependency groups within Boost.
     
