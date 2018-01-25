@@ -8,7 +8,8 @@ class BoostGraphConan(ConanFile):
     name = "boost_graph"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_graph"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["graph"]
     is_in_cycle_group = True
     is_header_only = False
