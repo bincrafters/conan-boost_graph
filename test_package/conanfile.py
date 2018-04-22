@@ -10,7 +10,7 @@ class TestPackageConan(ConanFile):
     generators = "cmake"
 
     def requirements(self):
-        boost_deps = ['algorithm', 'any', 'array', 'assert', 'bimap', 'bind', 'concept_check', 'config', 'container_hash', 'conversion', 'core', 'detail', 'disjoint_sets', 'foreach', 'function', 'graph', 'integer', 'iterator', 'lexical_cast', 'math', 'move', 'mpl', 'multi_index', 'optional', 'parameter', 'preprocessor', 'property_map', 'property_tree', 'random', 'range', 'serialization', 'smart_ptr', 'spirit', 'static_assert', 'test', 'throw_exception', 'tti', 'tuple', 'type_traits', 'typeof', 'unordered', 'utility', 'xpressive']
+        boost_deps = ['algorithm', 'any', 'array', 'assert', 'bind', 'concept_check', 'config', 'container_hash', 'conversion', 'core', 'detail', 'foreach', 'function', 'integer', 'iterator', 'lexical_cast', 'math', 'move', 'mpl', 'multi_index', 'optional', 'parameter', 'preprocessor', 'property_tree', 'random', 'range', 'serialization', 'smart_ptr', 'spirit', 'static_assert', 'test', 'throw_exception', 'tti', 'tuple', 'type_traits', 'typeof', 'unordered', 'utility', 'xpressive']
         for lib in boost_deps:
             self.requires("boost_" + lib + "/1.67.0@" + self.user + "/" + self.channel)
 

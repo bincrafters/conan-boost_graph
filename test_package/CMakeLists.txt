@@ -14,7 +14,6 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
   CONAN_PKG::boost_any
   CONAN_PKG::boost_array
   CONAN_PKG::boost_assert
-  CONAN_PKG::boost_bimap
   CONAN_PKG::boost_bind
   CONAN_PKG::boost_concept_check
   CONAN_PKG::boost_config
@@ -22,10 +21,8 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
   CONAN_PKG::boost_conversion
   CONAN_PKG::boost_core
   CONAN_PKG::boost_detail
-  CONAN_PKG::boost_disjoint_sets
   CONAN_PKG::boost_foreach
   CONAN_PKG::boost_function
-  CONAN_PKG::boost_graph
   CONAN_PKG::boost_integer
   CONAN_PKG::boost_iterator
   CONAN_PKG::boost_lexical_cast
@@ -36,7 +33,6 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
   CONAN_PKG::boost_optional
   CONAN_PKG::boost_parameter
   CONAN_PKG::boost_preprocessor
-  CONAN_PKG::boost_property_map
   CONAN_PKG::boost_property_tree
   CONAN_PKG::boost_random
   CONAN_PKG::boost_range
