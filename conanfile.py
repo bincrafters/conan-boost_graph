@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.69.0@bincrafters/testing")
 
 class BoostGraphConan(base.BoostBaseConan):
     name = "boost_graph"
+    version = "1.69.0"
     url = "https://github.com/bincrafters/conan-boost_graph"
     lib_short_names = ["graph"]
     cycle_group = "boost_cycle_group_d"
